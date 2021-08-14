@@ -13,24 +13,89 @@ h1
 }
 .container
 {
-    
+    width:33%;
+    float: left;
+}
+.box
+{
+    background-color: orange;
+    margin: 1em;
+    height: 600px;
+
+}
+#box1 .inner
+{
+    width:85%;
+    background-color: rgb(63, 168, 209);
+    height: 48.5%;
+    position: relative;;
+}
+#box1 .ab
+{
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+#box1 .cd
+{
+    margin-right: 1em;
+    margin-top: 1em;
 }
 
+#box2 .inner
+{
+    float: left;
+    width:50%;
+    height: 47%;
+    background-color: rgb(63, 168, 209);
 
+}
+#box2 .ab
+{
+    width:40%;
+    height: 43%;
+    margin: 1em;
+    
+}
+#box2 .cd
+{
+    width:40%;
+    background-color: rgb(63, 168, 209);
+    height: 43%;
+    margin: 1em;
+}
+#box2 .ef
+{
+    width:90%;
+    margin: 1em;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#box3 .inner
+{
+    width:46%;
+    background-color: rgb(63, 168, 209);
+    float: left;
+    height: 47.5%;
+}
+#box3 .ab
+{
+    margin-left: 1em;
+    margin-top:1em;
+}
+#box3 .cd
+{
+    margin-left: 1em;
+    margin-bottom:1em;
+}
+#box3 .ef
+{
+    margin-right: 1em;
+    margin-top:1em;
+}
+#box3 .gh
+{
+    margin-right: 1em;
+    margin-bottom:1em;
+}
 footer 
 {
     font-size: large;
@@ -50,9 +115,46 @@ a
     height: 20px;
     padding: 0px 15px;
 }
-
-
-@media screen and (max-width:768px)
+@media screen and (max-width:1300px)
 {
-    
+    .container
+    {
+        float: none;
+    }    
+    .box
+    {
+        position: relative;
+        left: 100px;
+    }
+    input
+    {
+        width: 50%;
+    }
+    #box2 .inner
+    {
+        float: none;
+        width:85%;
+        height:30%;
+        position: relative;
+        top:2px;
+    }
+    #box3 .inner
+    {
+        width:42%;
+        height:47.3%;
+    }
+    h5
+    {
+        text-align: center;
+        position: relative;
+        left:80px;
+    }
+}
+p
+{
+    text-align: center;
+}
+h5
+{
+    text-align: center;
 }
