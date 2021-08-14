@@ -115,7 +115,7 @@ a
     height: 20px;
     padding: 0px 15px;
 }
-@media screen and (max-width:1300px)
+@media screen and (max-width:768px)
 {
     .container
     {
